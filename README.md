@@ -1,26 +1,48 @@
-#todo-list-day1
+# Todo List App
 
-간단한 Todo List 웹앱니다.
-HTML, CSS, JavaScript로 만들었습니다
+A simple Todo List web application built with **HTML, CSS, and Vanilla JavaScript**.  
+Users can add tasks, mark them as completed, delete them, and filter tasks by status.  
+Todo data is stored in **localStorage**, so tasks remain even after refreshing the page.
+
+---
 
 ## Features
-- 할 일 추가
-- 할 일 완료 처리
-- 할 일 삭제
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Persist tasks using **localStorage**
+- Filter tasks by status:
+  - All
+  - Active
+  - Completed
+
+---
 
 ## Tech Stack
+
 - HTML
 - CSS
-- JavaScript
+- JavaScript (Vanilla JS)
+- Browser localStorage
+
+---
 
 ## File Structure
-- `index.html` : 화면 구조
-- `style.css` : 스타일
-- `script.js` : 기능(로직)
+
+- `index.html` : Page structure and layout
+- `style.css` : Styling and UI design
+- `script.js` : Application logic and DOM manipulation
+
+---
 
 ## How to Run
-1. 프로젝트 폴더를 엽니다
-2. `index.html` 파일을 브라우저에서 실행합니다
+
+1. Open the project folder.
+2. Open the `index.html` file in your browser.
+
+---
 
 ## Author
-Yoonah Joo
+
+**Yoonah Joo**
